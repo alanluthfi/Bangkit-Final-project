@@ -12,7 +12,7 @@ Author:
 
 We will use Vaccination dataset from https://corona.jakarta.go.id/id which is a institution in Jakarta that monitoring vaccination process in Jakarta. You can find the dataset in [here](https://tiny.cc/Datacovidjakarta)
 
-##Machine Learning Implementation
+## Machine Learning Implementation
 
 ![Screenshot_0](https://user-images.githubusercontent.com/70088542/121327316-89fa4380-c93d-11eb-942b-6f3a50412705.png)
 ![Screenshot_1](https://user-images.githubusercontent.com/70088542/121327366-9383ab80-c93d-11eb-859d-2d7398808ebc.png)
@@ -28,7 +28,7 @@ We will use Vaccination dataset from https://corona.jakarta.go.id/id which is a 
 ![Screenshot_11](https://user-images.githubusercontent.com/70088542/121327386-97173280-c93d-11eb-9374-f2bddecc6398.png)
 
 
-##Android Implementation
+## Android Implementation
 Android application that display a machine learning model that can predict how long it will take for the vaccination target number to be achieved.
 The data is from web API.
 
