@@ -64,5 +64,7 @@ For the appearance, we also edit the graphic line color by selection. And also a
 This app can display the vaccination prediction data based on user selection in the form of graph.
 Here is the some images of how our application looks like.
 
-![photo_2021-06-02_17-01-02](https://user-images.githubusercontent.com/78996136/120471682-35037e00-c3cf-11eb-8b92-e3b4cbcecdc3.jpg)
-![photo_2021-06-02_17-01-08](https://user-images.githubusercontent.com/78996136/120471705-3cc32280-c3cf-11eb-83f8-5442b745bc3d.jpg)
+![WhatsApp Image 2021-06-09 at 17 57 14](https://user-images.githubusercontent.com/78996136/121343713-309a1080-c94d-11eb-9847-6c88b6e74c85.jpeg)
+![WhatsApp Image 2021-06-09 at 17 54 43](https://user-images.githubusercontent.com/78996136/121343717-31cb3d80-c94d-11eb-83e0-73a0821f5512.jpeg)
+![WhatsApp Image 2021-06-09 at 17 55 30](https://user-images.githubusercontent.com/78996136/121343719-3263d400-c94d-11eb-9fa4-606667d7c988.jpeg)
+
