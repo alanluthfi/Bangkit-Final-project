@@ -38,5 +38,17 @@ GSON: https://github.com/google/gson
 Spark from Robinhood: https://github.com/robinhood/spark
 Ticker from Robinhood: https://github.com/robinhood/ticker
 
+Android Deployment
+Vaxi application can be download and develop in Android Studio. 
+Step 1. UI/UX
+First step is to design the UI/UX of the app, we decided to show the vaccination data in the form of a graphic and also numbers. Our apps is simple and only consist of homepage.
+Step 2. Creating Layout
+Next step to realize the UI/UX design into android application layout in Android Studio. We use text view to display number of texts, sparkview (a library by robinhood) to display the graph, radiogroup and radiobutton to display the selection between data, and tickerview (library develop by robinhood) to show animation in the textview. For now we only focus on the main features of the apps, to show the vaccination prediction.
+Step 3. Coding the App
+First, we retrieve the API using Retrofit and GSON. And then we call the data in the Main Activity. We also code the adapter for the SparkView, so it will show the correct data according the user selection. We also add scrubbing feature, so the user can view the data in different dates by scrub the graph.
+For the appearance, we also edit the graphic line color by selection. And also add the tickerview code to show animation in the textview. 
+This app can display the vaccination prediction data based on user selection in the form of graph.
+Here is the some images of how our application looks like.
+
 ![photo_2021-06-02_17-01-02](https://user-images.githubusercontent.com/78996136/120471682-35037e00-c3cf-11eb-8b92-e3b4cbcecdc3.jpg)
 ![photo_2021-06-02_17-01-08](https://user-images.githubusercontent.com/78996136/120471705-3cc32280-c3cf-11eb-83f8-5442b745bc3d.jpg)
