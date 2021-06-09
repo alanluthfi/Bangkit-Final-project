@@ -15,8 +15,9 @@ class VaxiSparkAdapter(private val vaxiPublicData: List<VaxiData>): SparkAdapter
     override fun getY(index: Int): Float {
         val dataHarianTerpilih = vaxiPublicData[index]
         return when(pilihan) {
-            Pilihan.VAKSINASI1 -> dataHarianTerpilih.vaksinasi1.toFloat()
-            Pilihan.VAKSINASI2 -> dataHarianTerpilih.vaksinasi2.toFloat()
+            Pilihan.VAKSINASI1 -> dataHarianTerpilih.training.toFloat()
+            Pilihan.VAKSINASI2 -> dataHarianTerpilih.test.toFloat()
+            Pilihan.VAKSINASI3 -> dataHarianTerpilih.prediksi.toFloat()
         }
     }
 

@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Vaxi</string>
     <string name="vaxi">Vaxi</string>
-    <string name="aplikasi_prediksi_durasi_vaksinasi">Aplikasi prediksi durasi vaksinasi</string>
-    <string name="vaksinasi_1">Vaksinasi Pertama</string>
-    <string name="vaksinasi_2">Vaksinasi Kedua</string>
+    <string name="aplikasi_prediksi_durasi_vaksinasi">Aplikasi prediksi jumlah vaksinasi</string>
+    <string name="vaksinasi_1">Data Vaksinasi Aktual</string>
+    <string name="vaksinasi_2">Data Aktual untuk Test</string>
+    <string name="vaksinasi_3">Data Prediksi</string>
     <string name="minggu">Mingguan</string>
     <string name="bulan">Bulanan</string>
     <string name="maksimum">Seluruh Waktu</string>

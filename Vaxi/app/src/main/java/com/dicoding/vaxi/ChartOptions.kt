@@ -1,7 +1,7 @@
 package com.dicoding.vaxi
 
 enum class Pilihan {
-    VAKSINASI1, VAKSINASI2
+    VAKSINASI1, VAKSINASI2, VAKSINASI3
 }
 
 enum class Periode(val jumlahHari:Int) {

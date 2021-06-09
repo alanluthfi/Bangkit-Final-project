@@ -17,7 +17,7 @@ import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
-private const val BASE_URL = "https://cekdiri.id/"
+private const val BASE_URL = "https://capstone-315702.et.r.appspot.com/"
 private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
@@ -88,6 +88,7 @@ class MainActivity : AppCompatActivity() {
             when (checkedId) {
                 R.id.vaksinasi1 -> updateDisplayPilihan(Pilihan.VAKSINASI1)
                 R.id.vaksinasi2 -> updateDisplayPilihan(Pilihan.VAKSINASI2)
+                R.id.prediksi -> updateDisplayPilihan(Pilihan.VAKSINASI3)
             }
         }
     }
@@ -97,6 +98,7 @@ class MainActivity : AppCompatActivity() {
         val colorResource = when(pilihan) {
             Pilihan.VAKSINASI1 -> R.color.vaksinasi1
             Pilihan.VAKSINASI2 -> R.color.vaksinasi2
+            Pilihan.VAKSINASI3 -> R.color.vaksinasi3
         }
 
         @ColorInt val colorInt = ContextCompat.getColor(this, colorResource)
@@ -125,8 +127,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateInfoForDate(vaxiData: VaxiData) {
         val angkaKasus = when (adapter.pilihan) {
-            Pilihan.VAKSINASI1 -> vaxiData.vaksinasi1
-            Pilihan.VAKSINASI2 -> vaxiData.vaksinasi2
+            Pilihan.VAKSINASI1 -> vaxiData.training
+            Pilihan.VAKSINASI2 -> vaxiData.test
+            Pilihan.VAKSINASI3 -> vaxiData.prediksi
         }
         jumlahKasus.text = NumberFormat.getInstance().format(angkaKasus)
         val outputDateFormat = SimpleDateFormat("MMM dd, yyyy", Locale.US)

@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="vaksinasi1">#66BB6A</color>
     <color name="vaksinasi2">#FF7043</color>
+    <color name="vaksinasi3">#F44336</color>
     <color name="background">#EBEEF6</color>
 
 </resources>
