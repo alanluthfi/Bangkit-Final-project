@@ -1,3 +1,17 @@
+# Predict Vaccination Jakarta
+
+Author:
+
+	- Irwan Sanjaya (A1341666)
+	- Alan Luthfi (M0040339)
+	- Aknanta Akmal(C1751816)
+	- Rizaldo Rizky Himawansah (A0040344)
+	- Itania Widyanti Rahayu (M1161487)
+	
+## Dataset Overview
+
+We will use Vaccination dataset from https://corona.jakarta.go.id/id which is a institution in Jakarta that monitoring vaccination process in Jakarta. You can find the dataset in [here](https://tiny.cc/Datacovidjakarta)
+
 Android application that display a machine learning model that can predict how long it will take for the vaccination target number to be achieved.
 The data is from web API.
 
