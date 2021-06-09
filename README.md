@@ -30,6 +30,7 @@ training a machine learning model requires the data to be in {features,target} f
 
 ### Train the model
 using architecture of LSTM units trained using sgd optimizer and Mean Squared Loss function for 100 epochs. using model.fit_generator() because already created a data generator.
+
 ![Screenshot_2](https://user-images.githubusercontent.com/70088542/121330538-4e14ad80-c940-11eb-965f-f040a2d2004e.png)
 
 The layer are starts from LSTM Layer which consist of input data time_step same as look_back and input unit of 1.
