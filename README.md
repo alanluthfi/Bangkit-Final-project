@@ -1,11 +1,11 @@
 # Predict Vaccination Jakarta
 
 Author:
-Markup : * Irwan Sanjaya (A1341666)
-	 * Alan Luthfi (M0040339)
-	 * Aknanta Akmal(C1751816)
-	 * Rizaldo Rizky Himawansah (A0040344)
-	 * Itania Widyanti Rahayu (M1161487)
+* Irwan Sanjaya (A1341666)
+* Alan Luthfi (M0040339)
+* Aknanta Akmal(C1751816)
+* Rizaldo Rizky Himawansah (A0040344)
+* Itania Widyanti Rahayu (M1161487)
 
 	
 ## Dataset Overview
