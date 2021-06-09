@@ -67,4 +67,3 @@ Here is the some images of how our application looks like.
 ![WhatsApp Image 2021-06-09 at 17 57 14](https://user-images.githubusercontent.com/78996136/121343713-309a1080-c94d-11eb-9847-6c88b6e74c85.jpeg)
 ![WhatsApp Image 2021-06-09 at 17 54 43](https://user-images.githubusercontent.com/78996136/121343717-31cb3d80-c94d-11eb-83e0-73a0821f5512.jpeg)
 ![WhatsApp Image 2021-06-09 at 17 55 30](https://user-images.githubusercontent.com/78996136/121343719-3263d400-c94d-11eb-9fa4-606667d7c988.jpeg)
-

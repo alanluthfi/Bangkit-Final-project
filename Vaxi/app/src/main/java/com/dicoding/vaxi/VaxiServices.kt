@@ -5,7 +5,7 @@ import retrofit2.http.GET
 
 interface VaxiServices {
 
-    @GET("vaksinasi")
+    @GET("vaxi2")
 //    @Headers("Authorization: token ")
     fun getVaksinasi(): Call<VaxiDataResponse>
 
